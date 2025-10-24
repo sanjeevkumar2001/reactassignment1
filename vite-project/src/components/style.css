@@ -1,0 +1,33 @@
+
+.b1{
+    border: 1px solid black;
+    background-color: red;
+    border-radius: 10px;
+    width: 150px; 
+
+}
+.b1:hover{
+    transform: scale(1.5);
+    box-shadow: inset;
+}
+.a1{
+    display: flex;
+    gap: 50px; 
+    flex-wrap: wrap;
+    padding: 15px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+input{
+    border: 1px solid black;
+    width: 150px;
+
+}
+.d1{
+  position: relative;
+  left: 150px;
+  display: flex;
+  gap: 15px;    
+}
